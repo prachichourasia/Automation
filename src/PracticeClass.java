@@ -18,6 +18,7 @@ public class PracticeClass
 	public static void main(String[] args) throws IOException 
 	{
 		System.out.println("Frist try");
+		System.out.println("Second try");
 		fis =new FileInputStream("C:\\Users\\Ishan Ratnaparkhi\\Desktop\\Data.txt");
 		Properties pobj=new Properties();
 		pobj.load(fis);
