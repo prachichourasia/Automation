@@ -17,6 +17,7 @@ public class PracticeClass
 	static FileInputStream fis;
 	public static void main(String[] args) throws IOException 
 	{
+		System.out.println("Frist try");
 		fis =new FileInputStream("C:\\Users\\Ishan Ratnaparkhi\\Desktop\\Data.txt");
 		Properties pobj=new Properties();
 		pobj.load(fis);
